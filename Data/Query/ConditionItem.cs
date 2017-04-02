@@ -1,7 +1,4 @@
-﻿
-using Lq.Data.Entity;
-
-namespace Lq.Data.Query
+﻿namespace Lq.Data.Query
 {
     /// <summary>
     /// 用于存储查询条件的单元

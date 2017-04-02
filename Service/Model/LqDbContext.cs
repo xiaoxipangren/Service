@@ -23,11 +23,7 @@ namespace Lq.Service.Model
         public LqDbContext(): base("name=DbContext"){}
 
         //应该写出每一个实体类对应的Db<Set>
-        public virtual DbSet<Region> Managers { get; set; }
-        public virtual DbSet<BasicInfo> OrderDetails { get; set; }
-        public virtual DbSet<Bus> Buses { get; set; }
-        public virtual DbSet<BusStation> BusStatios { get; set; }
-        public virtual DbSet<BusStationMap> BusStationMaps { get; set; }
+        
 
 
     }

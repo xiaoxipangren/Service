@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Lq.Data.Extension;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Lq.Data.Entity
 {
@@ -10,7 +11,7 @@ namespace Lq.Data.Entity
     {
         private static Dictionary<string, Type> entityMap;
 
-
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id
         {
             get;set;

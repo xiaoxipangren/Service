@@ -59,14 +59,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attribute\ColumnCommentAttribute.cs" />
     <Compile Include="Attribute\EntityMapAttribute.cs" />
     <Compile Include="Entity\BaseEntity.cs" />
     <Compile Include="Entity\IEntity.cs" />
+    <Compile Include="Entity\ISpatialEntity.cs" />
+    <Compile Include="Entity\IUser.cs" />
+    <Compile Include="Entity\Role.cs" />
+    <Compile Include="Entity\SpatialEntity.cs" />
     <Compile Include="Model\AdminDevision.cs" />
+    <Compile Include="Model\Govern.cs" />
+    <Compile Include="Model\Manage.cs" />
+    <Compile Include="Model\TravelDevision.cs" />
+    <Compile Include="Model\VillageConstructon.cs" />
+    <Compile Include="Model\WeChat.cs" />
     <Compile Include="Query\QueryableExtension.cs" />
     <Compile Include="Extension\TypeAttributeExtension.cs" />
     <Compile Include="Model\Order.cs" />
-    <Compile Include="Model\Manager.cs" />
     <Compile Include="Query\ConditionItem.cs" />
     <Compile Include="Query\QueryableSearcher.cs" />
     <Compile Include="Query\QueryMethod.cs" />
